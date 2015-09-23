@@ -38,11 +38,11 @@ class App {
                             self.publicationTime(Number(data[i].date)) + '</small></li>');
                     }
                 } else {
-                    $(".latest-list").empty().append('<li><p>¶Ô²»Æğ£¬ÔİÎŞ¸üĞÂ~£¡<p></li>');
+                    $(".latest-list").empty().append('<li><p>å¯¹ä¸èµ·ï¼Œæš‚æ— æ›´æ–°~ï¼<p></li>');
                 }
             },
             error: function () {
-                $(".latest-list").empty().append('<li><p>¶Ô²»Æğ£¬ÔİÎŞ¸üĞÂ~£¡<p></li>');
+                $(".latest-list").empty().append('<li><p>å¯¹ä¸èµ·ï¼Œæš‚æ— æ›´æ–°~ï¼<p></li>');
             }
         });
     }
@@ -83,7 +83,7 @@ class App {
         } else if (interval > 1) {
             return Math.ceil(interval) + " Ğ¡Ê±Ö®Ç°";
         } else {
-            return Math.ceil(interval * 60) + " ·ÖÖÓÖ®Ç°";
+            return Math.ceil(interval * 60) + " ï¿½ï¿½ï¿½ï¿½Ö®Ç°";
         }
     }
 
