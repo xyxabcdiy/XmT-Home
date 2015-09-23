@@ -1,0 +1,25 @@
+/*Accordions
+------------------------------------*/
+/*Accordion v1*/
+.acc-v1 .panel-heading {
+    padding: 0;
+    box-shadow: none;
+}
+
+.acc-v1 .panel-heading a {
+    display: block;
+    font-size: 18px;
+    padding: 5px 15px;
+    background: #fefefe;
+}
+
+.acc-v1 .panel-heading a:hover {
+    text-decoration: none;
+}
+
+/*Panels (Portlets)
+------------------------------------*/
+.panel-heading {
+    color: #fff;
+    padding: 5px 15px;
+}

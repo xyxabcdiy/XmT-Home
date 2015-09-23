@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="zh-CN" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="zh-CN" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh-CN"> <!--<![endif]-->
+<head>
+    <title>XMT 支持 | 帮助</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../75.png">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="../assets/css/headers/header-v2.css">
+    <link rel="stylesheet" href="../assets/css/footers/footer-v1.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/pages/help.css">
+</head>
+
+<body class="header-fixed">
+
+<div class="wrapper">
+    <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    <h4>非常抱歉</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="alert-content"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== Header v2 ===-->
+    <div class="header-v2 header-sticky">
+        <div class="container container-space">
+            <!-- Topbar v2 -->
+            <div class="topbar-v2">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <ul class="list-inline top-v2-contacts">
+                            <li>Email: infostream.com</li>
+                            <li>Call Us: +70 396 4587 99</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Topbar v2 -->
+        </div>
+        <!-- Navbar -->
+        <div class="navbar navbar-default mega-menu" role="navigation">
+            <div class="container container-space">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand brand-style" href="../index.html">
+                        <img id="logo-header" src="../assets/img/logo1-default.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Home -->
+                        <li>
+                            <a href="../index.html">
+                                主页
+                            </a>
+                        </li>
+                        <!-- End Home -->
+                        <!-- Product -->
+                        <li>
+                            <a href="../production/productions.html">
+                                产品
+                            </a>
+                        </li>
+                        <!-- End Product -->
+
+                        <!-- Support -->
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                支持
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="help.html">帮助</a></li>
+                                <li><a href="contact.html">联系我们</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Support -->
+
+                        <!-- Link -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                相关链接
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../xmter/xmter.html">蒸笼社区</a></li>
+                                <li><a href="../link/about_us.html">关于我们</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Link -->
+                    </ul>
+                </div>
+                <!--/navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header v2 ===-->
+    <!-- Image Gradient -->
+    <div class="interactive-slider-support">
+        <div class="container">
+            <br/>
+
+            <p>在这里，你会找到你想要的答案</p>
+            <br/>
+        </div>
+    </div>
+    <!-- End Image Gradient -->
+
+    <!--=== Content Part ===-->
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-9">
+                <!-- General Questions -->
+                <div class="headline"><h2>常见问题</h2></div>
+                <div class="panel-group acc-v1 margin-bottom-40" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne">
+                                    1、如何使用 XMT_Backend 服务器架构?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>首先确定您已经安装了Node.js，然后在您的项目文件夹中，用<code>npm init</code>命令为您的程序创建一个名为<em>
+                                    package.json </em>的文件。
+                                    现在，您可以在您的工程目录下加载xmt_backend模块并保存在依赖项列表里。
+                                </p>
+                                <code>npm install xmt_backend</code>
+
+                                <p>
+                                    模块加载完之后，您就可以在您的文件中引用</p>
+                                <code>import {Application} from "xmt_backend"
+                                    let <var>app</var> = new Application();
+                                </code>
+
+                                <p>
+                                    变量<code><var> app </var></code>就是由<em> xmt_backend </em>创建的服务器应用。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseTwo">
+                                    2、如何将静态文件加入 XMT_Backend 所构建的服务器应用中?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>在您创建了服务器应用之后，调用以下代码，就可以将静态文件加入您的服务器应用中。</p>
+                                <code>app.configStaticServer(<var>directory</var>,<var>options</var>);</code>
+                                <p>
+                                    <var>directory</var> 是静态的文件的相对路径或绝对路径。
+                                    <var>options</var> 是配置选项。
+                                    具体使用方法请见 <a href="#">XMT_Backend API 文档</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseThree">
+                                    3、如何在 XMT_Backend 中处理不同类型的 HTTP 请求？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>在 XMT_Backend 中，提供了对所有的 HTTP 请求的进行处理的API函数。</p>
+                                <p>首先需要在 app中挂载 collection，每一个 collection可以挂载多个 route，每一个 route都可以注册一个对指定的 url的 HTTP请求进行处理的函数。</p>
+                                <code>let <var>app</var> = new Application();
+                                    let <var>collection</var> = new app.collection("/user");
+                                    let <var>route</var> = new collection("/name");
+                                    route.get(function(request,response){
+                                    ...
+                                    })
+                                </code>
+                                <p>在以上的程序中，当用户访问 <cite>"/user/name"</cite> 时，会产生一个 GET 请求，这个请求可以在 <code>route.get()</code> 中被处理，函数中的 <code>request</code> 和 <code>response</code> 参数即为 HTTP 的请求和响应对象。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseFour">
+                                    4、如何在 XMT_Backend 中获取 URL 中的查询参数？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>在 <code>route.get(function(request,response){})</code> 中的 request 对象中包含有 xmt_query 属性。xmt_query 是一个对象，URL 中的查询参数会被解析到 xmt_query 中。</p>
+                                <p>URL为："/?username=jack"</p>
+                                在相应的 <code>route</code> 中会得到 <code>request.xmt_query = { username : jack }</code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseFive">
+                                    5、如何在 XMT_Backend 中获取 POST 请求中传递的数据？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><code>app</code> 中封装了解析 POST 请求中的JSON数据的函数名为 <code>createBodyParserTask</code>，该函数可将 JSON 数据解析为对象。</p>
+                                <p><code>request.xmt_body</code> 对象中存放了 POST 请求中的JSON数据。</p>
+                                <p>如果想在 <code>route</code> 中得到 POST 请求传递的数据，只需在 <code>route</code> 所在的 <code>collection</code> 中加入一个 <code>common</code> 中间件。</p>
+                                <p>POST 请求中的数据为 <code>{ "username" : "jack" }</code></p>
+                                <p><code>collection.common( app.createBodyParserTask() )</code></p>
+                                <p>此时 <code>request.xmt_body</code> 应为 <code>{ username : "jack" }</code></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseSix">
+                                    6、如何在 XMT_Backend 中使用 RESTful URL？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><code>request.xmt_params</code> 是一个对象，其中包含了 RESTful URL 中参数以及对应的值。</p>
+                                <code>// GET /user/tj
+                                    request.xmt_params.name
+                                    // => "tj"
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseSeven">
+                                    7、如何在 XMT_Backend 中使用 MongoDB？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>MongoDB 为 Node.js 提供了官方的模块。只需在程序初始化时引用即可。</p>
+                                <code>npm install mongodb
+                                    import * as mongodb from "mongodb"</code>
+                                <p>关于 mongodb 的详细情况，请参照官方的 API 文档。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/acc-v1-->
+                <!-- End General Questions -->
+
+                <!-- Other Questions -->
+                <div class="headline"><h2>其他问题</h2></div>
+                <div class="panel-group acc-v1" id="accordion-1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1"
+                                   href="#collapse-One">
+                                    1、怎样用 Markdown 做出好看的排版？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-One" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h4><strong>请参阅：</strong></h4>
+                                        <ul>
+                                            <li><a href="http://www.markdown.cn/">MarkDown - 语法说明</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1"
+                                   href="#collapse-Two">
+                                    2、如何对我们提出意见？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-Two" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>如果您对我们的服务不满意，可以前往 <a href="contact.html">联系我们</a> 页面，对我们发送信息。</p>
+                                <p>您也可以致电 +70 396 4587 99</p>
+                                <p>或者发送 Email 至 info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/acc-v1-->
+                <!-- End Other Questions -->
+            </div>
+            <!--/col-md-9-->
+
+            <div class="col-md-3">
+                <!-- Contacts -->
+                <div class="headline"><h2>联系方式</h2></div>
+                <ul class="list-unstyled who margin-bottom-30">
+                    <li><a href="#"><i class="fa fa-home"></i>广州市海珠区琶洲新村4栋A座1905</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>info@example.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>1(222) 5x86 x97x</a></li>
+                    <li><a href="#"><i class="fa fa-globe"></i>http://www.example.com</a></li>
+                </ul>
+                <!-- End Contacts -->
+
+                <!-- Business Hours -->
+                <div class="headline"><h2>营业时间</h2></div>
+                <ul class="list-unstyled margin-bottom-30">
+                    <li><strong>周一至周五</strong> 上午9点 —— 晚上6点</li>
+                    <li><strong>周六:</strong> 上午9点 —— 中午12点</li>
+                    <li><strong>周日:</strong> 休息</li>
+                </ul>
+                <!-- End Business Hours -->
+
+                <!-- Info Block -->
+                <div class="headline"><h2>为什么选择我们?</h2></div>
+                <p>我们自主研发的 XMT_Backend 是以Node.js为内核打造的轻量级架构。</p>
+                <ul class="list-unstyled margin-bottom-30">
+                    <li><i class="fa fa-check color-green"></i> 一切为了用户方便而设计</li>
+                    <li><i class="fa fa-check color-green"></i> 轻松掌握每一个错误的发生原因</li>
+                    <li><i class="fa fa-check color-green"></i> 兼容所有 express 中间件</li>
+                </ul>
+                <!-- End Info Block -->
+            </div>
+            <!--/col-md-3-->
+        </div>
+        <!--/row-->
+    </div>
+    <!--/container-->
+    <!--=== End Content Part ===-->
+
+    <!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <a href="../index.html"><img id="logo-footer" class="footer-logo"
+                                                     src="../assets/img/logo2-default.png" alt=""></a>
+                        <p>小馒头，贴心为你</p>
+                        <br/>
+                        <p>你是谁，读者</p>
+                        <p>百年之后，读着我的诗</p>
+                    </div>
+                    <!--/col-md-3-->
+                    <!-- End About -->
+
+                    <!-- Latest -->
+                    <div class="col-md-4 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>社区动态</h2></div>
+                            <ul class="list-unstyled latest-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/col-md-3-->
+                    <!-- End Latest -->
+
+                    <!-- Address -->
+                    <div class="col-md-4 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>联系我们</h2></div>
+                        <address class="md-margin-bottom-40">
+                            4A，新港东路琶洲新村，海珠区 <br/>
+                            广州市, 中国 <br/>
+                            Phone: 800 123 3456 <br/>
+                            Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
+                        </address>
+                    </div>
+                    <!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div>
+        </div>
+        <!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            2015 &copy; All Rights Reserved.
+                            <a href="../policy/privacy.html">隐私政策</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/copyright-->
+    </div>
+    <!--=== End Footer Version 1 ===-->
+</div>
+<!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="../assets/plugins/back-to-top.js"></script>
+
+<!-- JS Customization -->
+
+<!-- JS Page Level -->
+<script type="text/javascript" src="../assets/ts/app.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var app = new App();
+        app.init();
+
+    });
+</script>
+<!--[if lt IE 9]>
+<script src="../assets/plugins/respond.js"></script>
+<script src="../assets/plugins/html5shiv.js"></script>
+<script src="../assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>

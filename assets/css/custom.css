@@ -1,0 +1,221 @@
+/* Add here all your css styles (customizations) */
+* {
+    border-radius: 0 !important;
+}
+
+.tabscss p {
+    text-indent: 2em;
+    font-size: 15px;
+}
+
+.sky-form {
+    font-size: 16px;
+    font-family: "Open Sans", "Microsoft YaHei", Helvetica, Arial, STHeiti, sans-serif;
+}
+
+.interactive-slider-index {
+    z-index: 1;
+    padding: 200px 0 150px 0;
+    position: relative;
+    text-align: center;
+    background: url(../img/bg/8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.interactive-slider-index h1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+    line-height:80px;
+    letter-spacing: 5px;
+    font-family: 'Comic Sans MS',cursive;
+}
+
+.interactive-slider-index p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 8px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.interactive-slider-production {
+    z-index: 1;
+    padding: 200px 0 150px 0;
+    position: relative;
+    text-align: center;
+    background: url(../img/bg/14.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.interactive-slider-production h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 600;
+    line-height:80px;
+    letter-spacing: 5px;
+    font-family: 'Comic Sans MS',cursive;
+}
+
+.interactive-slider-production p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.interactive-slider-support {
+    z-index: 1;
+    padding: 200px 0 150px 0;
+    position: relative;
+    text-align: center;
+    background: url(../img/bg/support.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.interactive-slider-support h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 600;
+    line-height:80px;
+    letter-spacing: 5px;
+    font-family: 'Comic Sans MS',cursive;
+}
+
+.interactive-slider-support p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.interactive-slider-about {
+    z-index: 1;
+    padding: 200px 0 150px 0;
+    position: relative;
+    text-align: center;
+    background: url(../img/bg/about_us.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.interactive-slider-about h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 600;
+    line-height:80px;
+    letter-spacing: 5px;
+    font-family: 'Comic Sans MS',cursive;
+}
+
+.interactive-slider-about p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+.panel-body code{
+    white-space: pre-line;
+}
+.panel-body p{
+    white-space: pre-line;
+}
+
+#service-terms{
+    color: #72c02c;
+}
+
+/*Choose Block*/
+.who li {
+    margin-bottom: 6px;
+}
+.who li i {
+    color: #72c02c;
+    font-size: 14px;
+    min-width: 15px;
+    margin-right: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.who li a{
+    font-size: 14px;
+}
+
+.who li:hover i,
+.who li:hover a {
+    color: #777;
+}
+.who li:hover a:hover {
+    text-decoration: none;
+}
+
+/*Blog Posts
+------------------------------------*/
+.posts .dl-horizontal a {
+    color: #555;
+}
+
+.posts .dl-horizontal {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.posts .dl-horizontal dt {
+    width: 60px;
+    float: left;
+}
+
+.posts .dl-horizontal dt img {
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    margin-top: 2px;
+    border: solid 1px #ddd;
+}
+
+.posts .dl-horizontal dd {
+    margin-left: 70px;
+}
+
+.posts .dl-horizontal dd p {
+    margin: 0;
+}
+
+.posts .dl-horizontal dd a {
+    font-size: 14px;
+    line-height: 16px !important;
+}
+
+.posts .dl-horizontal dd a:hover {
+    color: #72c02c;
+    text-decoration: none;
+}
+
+.posts .dl-horizontal:hover dt img,
+.posts .dl-horizontal:hover dd a {
+    color: #72c02c;
+    border-color: #72c02c !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Privacy Page
+------------------------------------*/
+.privacy a {
+    text-decoration: underline;
+}
+
+.privacy a:hover {
+    color: #72c02c;
+    text-decoration: none;
+}
